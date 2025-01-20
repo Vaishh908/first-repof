@@ -36,7 +36,7 @@ public class Task {
 					stmt.executeUpdate();
 				}
 			}
-			System.out.println("Data inseted succesfully");
+			System.out.println("Data Inseted Succesfully");
 		} catch (SQLException | ClassNotFoundException e) {
 			e.printStackTrace();
 		}
